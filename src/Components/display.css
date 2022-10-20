@@ -84,13 +84,6 @@ button{
     font-size: 40px;
 }
 
-.first,.second,input,button,.error{
-    margin-left: 80px;
-}
-.header{
-    padding-left: 80px;
-}
-
 .error{
     background-color: white;
     color: black;
