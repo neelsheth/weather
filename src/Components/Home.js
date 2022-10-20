@@ -36,7 +36,7 @@ export default function Home() {
 
             <input ref={inputRef} placeholder="Bengaluru..."></input>
             <button onClick={search}>Search</button>
-            {error && <div className='error'>Not a valid search input..</div>}
+            {error && <div className='error'>Not a valid City input..</div>}
             {data !== null && <DisplayInfo res={data.data}></DisplayInfo>}
         </div>
     )
