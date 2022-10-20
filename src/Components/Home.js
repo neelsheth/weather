@@ -22,14 +22,21 @@ export default function Home() {
         axios(`https://api.openweathermap.org/data/2.5/weather?q=${input}&appid=892b8276a3e43e22d5d74db7a10d976e&units=metric`)
             .then((json) => {
                 setData(json);
+                console.log(json)
             })
+            .catch(()=>{
+                console.log("error")
+                setError(true)
+            })
+
     }
 
     return (
         <div className='box'>
+
             <input ref={inputRef} placeholder="Bengaluru..."></input>
             <button onClick={search}>Search</button>
-            {error && <h1>Not a valid search input..</h1>}
+            {error && <div className='error'>Not a valid search input..</div>}
             {data !== null && <DisplayInfo res={data.data}></DisplayInfo>}
         </div>
     )
