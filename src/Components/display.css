@@ -10,7 +10,7 @@
 
 html{
    min-height: 100%; 
-   /* background-image: url(" https://images.squarespace-cdn.com/content/v1/56db7d4a8a65e2210b5c0cb2/1586005389469-UBSHBH5B196BVIZM6UOA/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Bubbles+2.jpg"); */
+   background-image: url(" https://images.squarespace-cdn.com/content/v1/56db7d4a8a65e2210b5c0cb2/1586005389469-UBSHBH5B196BVIZM6UOA/ke17ZwdGBToddI8pDm48kLkXF2pIyv_F2eUT9F60jBl7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z4YTzHvnKhyp6Da-NYroOW3ZGjoBKy3azqku80C789l0iyqMbMesKd95J-X4EagrgU9L3Sa3U8cogeb0tjXbfawd0urKshkc5MgdBeJmALQKw/Bubbles+2.jpg");
     min-width: 600px;
     background-color: black;
 }
