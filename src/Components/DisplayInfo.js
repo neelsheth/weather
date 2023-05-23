@@ -41,7 +41,7 @@ export default function DisplayInfo(props) {
 
                         {/* third circle displaying Humidity , Wind , Pressure*/}
                         <div className='c2'>
-                            <div className='small'> Humidity.... : {props.res.main.humidity} %</div>
+                            <div className='small'> Humidity : {props.res.main.humidity} %</div>
                             <div className='small'> Wind : {props.res.wind.speed} km/h </div>
                             <div className='small'> Pressure : {props.res.main.pressure} mbar</div>
                         </div>
